@@ -15,6 +15,7 @@ class MainWindow : public QMainWindow
 
 public:
     MainWindow(QWidget *parent = nullptr);
+    void onSpinBoxValueChanged(int value);
     ~MainWindow();
 
 private:
